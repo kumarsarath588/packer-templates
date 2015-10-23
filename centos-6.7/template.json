@@ -65,7 +65,7 @@
     {
       "type": "vmware-iso",
       "boot_command": [
-        "<tab> text ks=http://{{ .HTTPIP }}:{{ .HTTPPort }}/ks.cfg<enter><wait>"
+        "<tab> text ks=http://192.168.200.239/artifactory/Software-Repo/ks-centos-67.cfg<enter><wait>"
       ],
       "boot_wait": "10s",
       "disk_size": 40520,
